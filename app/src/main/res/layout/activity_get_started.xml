@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetStarted">
+
+    <View
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/medical_image"/>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Pharmacy management location"
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"
+        android:layout_marginEnd="60dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="70dp"
+        android:fontFamily="@font/poppins"
+        android:text="Lorem ipsum dolor sit amet consectetur. Vitae et morbi quam mattis mattis tristique. Convallis fermentum dictumst ante pharetra sit ornare sagittis volutpat habitant. Sit magna quam fermentum in eu mi ut libero. Tempus duis tincidunt interdum hendrerit montes." />
+    <Button
+        android:id="@+id/getStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:text="Get Started"
+        android:background="@drawable/custom_button"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/baloo"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

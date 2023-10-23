@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+   <LinearLayout
+       android:id="@+id/search_parent"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginStart="20dp"
+       android:layout_marginEnd="20dp"
+       android:layout_marginTop="40dp"
+       android:background="@drawable/input_rectangle"
+       android:backgroundTint="#1DE3BC"
+       android:padding="10dp"
+       android:gravity="center">
+
+      <AutoCompleteTextView
+          android:id="@+id/search_input"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="20dp"
+          android:layout_marginEnd="20dp"
+          android:fontFamily="@font/poppins"
+          android:hint=" EX: hay riyad"
+          android:padding="10dp" />
+
+      <View
+          android:id="@+id/search_btn"
+          android:layout_width="40dp"
+          android:layout_height="40dp"
+         android:background="@drawable/search"
+         android:backgroundTint="#00AE70"/>
+
+   </LinearLayout>
+   <TextView
+       android:id="@+id/getAnswear"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text=""
+       android:fontFamily="@font/baloo"
+       android:textSize="20sp"
+       android:layout_below="@+id/search_parent"
+       android:layout_marginStart="40dp"
+       android:layout_marginTop="40dp"
+       />
+</RelativeLayout>

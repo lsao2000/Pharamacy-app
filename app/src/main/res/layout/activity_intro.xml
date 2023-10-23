@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intro">
+
+    <View
+        android:id="@+id/vector17"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="50dp"
+        android:backgroundTint="#0C986B"
+        android:background="@drawable/health"
+        />
+
+    <View
+        android:id="@+id/vector1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="245dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#43CFA2"/>
+
+    <View
+        android:id="@+id/vector2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="50dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#A0EFD6"
+        />
+
+    <View
+        android:id="@+id/vector3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#29A87F"/>
+
+    <View
+        android:id="@+id/vector4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="133dp"
+        android:backgroundTint="#0BDF9B"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="151dp"
+        android:backgroundTint="#22DDA1"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector6"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="163dp"
+        android:backgroundTint="#00FFAD"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="203dp"
+        android:backgroundTint="#2FA57F"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="305dp"
+        android:layout_marginTop="245dp"
+        android:backgroundTint="#03FDAD"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="213dp"
+        android:backgroundTint="#01D893"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="262dp"
+        android:backgroundTint="#0DCD90"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector11"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="207dp"
+        android:layout_marginTop="148dp"
+        android:backgroundTint="#40FFC2"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector12"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="286dp"
+        android:backgroundTint="#2FC695"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector13"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="144dp"
+        android:backgroundTint="#7EFFD5"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector14"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="189dp"
+        android:backgroundTint="#01DF98"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector15"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="241dp"
+        android:backgroundTint="#0C986B"
+        android:background="@drawable/health" />
+
+    <View
+        android:id="@+id/vector16"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="298dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#27B88A" />
+
+    <View
+        android:id="@+id/vector18"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#A4F4DB" />
+
+
+    <View
+        android:id="@+id/vector19"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#9CECD2" />
+
+    <View
+        android:id="@+id/vector20"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="266dp"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#5AB89A" />
+
+    <View
+        android:id="@+id/vector21"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="107dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#31EDB2" />
+
+    <View
+        android:id="@+id/vector22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/health"
+        android:backgroundTint="#00B87E" />
+
+    <TextView
+        android:id="@+id/gText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="89dp"
+        android:fontFamily="@font/baloo"
+        android:gravity="top"
+        android:text="G"
+        android:textAppearance="@style/G_style" />
+    <TextView
+        android:id="@+id/pharmacie"
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="128dp"
+        android:text="Pharmacie"
+        android:textAppearance="@style/pharmacie"
+        android:fontFamily="@font/baloo"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="171dp"
+        android:text="Location"
+        android:textAppearance="@style/pharmacie"
+        android:fontFamily="@font/baloo"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/actor"
+        android:text="Developped by Lahcen"
+        android:textSize="18sp"
+        android:textColor="#8C8C8C"/>
+</RelativeLayout>
