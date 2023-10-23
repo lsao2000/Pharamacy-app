@@ -60,7 +60,7 @@ public class LoginFragment extends Fragment {
                         }
                     }
                     if(valid){
-                        Toast.makeText(getContext(), pharmacie.getNom()+pharmacie.getPlace(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getContext() , pharmacie.getNom()+pharmacie.getPlace(), Toast.LENGTH_SHORT).show();
                         pharmacie.addPharmacie(pharmacie);
                         mainActivity.addDataToArrayList(pharmacie);
                     }

@@ -32,7 +32,7 @@ public class SearchFragment extends Fragment {
         searchInput = view.findViewById(R.id.search_input);
         getAnsewr = view.findViewById(R.id.getAnswear);
         ArrayAdapter<Pharmacie> newArrayAdapter = new ArrayAdapter<Pharmacie>(getContext(), android.R.layout.simple_spinner_dropdown_item, Pharmacie.getPharmacies());
-        searchInput.setAdapter(newArrayAdapter);
+        searchInput.setAdapter(newArray Adapter);
         searchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
